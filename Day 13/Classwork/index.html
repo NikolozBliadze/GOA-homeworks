@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <title>რეგისტრაციის ფორმა</title>
+</head>
+<body>
+    <form action="submit" method="post">
+   
+        <label for="name">შეიყვანეთ თქვენი სახელი:</label>
+        <input type="text" name="name" id="name" required><br><br>
+
+
+        <label for="surname">შეიყვანეთ თქვენი გვარი:</label>
+        <input type="text" name="surname" id="surname" required><br><br>
+
+
+        <label for="age">შეიყვანეთ თქვენი ასაკი:</label>
+        <input type="number" name="age" id="age" min="0" required><br><br>
+
+        <label for="gender">აირჩიეთ თქვენი სქესი:</label><br>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">კაცი</label><br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">ქალი</label><br>
+        <input type="radio" name="gender" id="walmart bag" value="walmart bag">
+        <label for="walmat bag">walmart bag</label><br><br>
+
+   
+        <input type="checkbox" name="terms" id="terms" required>
+        <label for="terms">ვეთანხმები პირობებს</label><br><br>
+
+       
+        <input type="submit" value="გაგზავნა">
+    </form>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html><br><br><br><br><br><br>
+<html lang="ka">
+<head>
+    <title>დიქტატორის არჩევა</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <!-- Dropdown menu -->
+        <label for="dictator">აირჩიეთ თქვენი საყვარელი დიქტატორი:</label>
+        <select name="dictator" id="dictator">
+            <option value="louis14">Louis XIV</option>
+            <option value="napoleon">ნაპოლეონი</option>
+            <option value="stalin">სტალინი</option>
+            <option value="hitler">ჰიტლერი</option>
+        </select><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="გაგზავნა">
+    </form>
+</body>
+</html>
+
