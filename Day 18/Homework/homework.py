@@ -23,4 +23,4 @@ print(fav_movies[-1])
 print("--------------------")
 
 num = [10, 20, 30, 40, 50, 60]
-print(num[-2], num[-1])
+print(num[-2], num[-1]) 
