@@ -3,7 +3,7 @@ body {
 }
 
 a {
-    color: black;
+    color: rgb(183, 255, 1);
 }
 
 article {
@@ -20,5 +20,13 @@ section {
 
 table {
    border-color: brown;
-   
+   border-style: inset;
+}
+
+h1 {
+    color: rgb(9, 255, 1);
+}
+
+ul {
+    color: rgb(0, 208, 255);
 }

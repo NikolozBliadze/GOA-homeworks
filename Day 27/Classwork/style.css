@@ -1,0 +1,17 @@
+h1{
+    color: blueviolet;
+    background-color: black;
+}
+
+#p1{
+    background-color: #f23256;
+    border: 10px solid salmon;
+}
+
+body{
+    background-color: hsl(70, 100%, 70%);
+}
+
+.foot{
+    color: rgb(145, 45, 34);
+}
