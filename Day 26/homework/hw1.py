@@ -48,4 +48,16 @@ def cube():
 cube()
 
 
+def print_pattern():
+    rows = 4
+    for i in range(rows):
+        spaces = " " * i
+        stars = "*" * (7 if i < 2 else 8)
+        print(spaces + stars)
+
+print_pattern()
+
+
+
+
     

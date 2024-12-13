@@ -1,0 +1,14 @@
+body {
+    font-family: "Agu Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0;
+    background-color: aqua;}
+
+.font-one {
+        font-family: "Playwrite TZ Guides", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
