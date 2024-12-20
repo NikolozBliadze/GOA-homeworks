@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Georgian";
+    src: url("\./fonts/Georgian/Ana-Kalandadze_2.ttf")
+}
+
+body {
+    font-family: "Georgian";
+    background: yellowgreen;
+}
+
+table, th, td{
+    border: 1px solid;
+}
+
+a{
+    color: blueviolet;
+}
+
+.h1, h2, h3{
+    text-align: center;
+}
