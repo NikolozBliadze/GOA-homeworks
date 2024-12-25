@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px 25px 25px 25px;
+    background-color: hsl(70, 100%, 70%);
+    border-color: salmon;
+    font-size: 18px;
+}
+
+main {
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+div {
+    text-shadow: 2px 2px palevioletred;
+}
+
+
+img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+footer {
+    margin-top: 40px;
+    color: blueviolet;
+    font-family: sans-serif;
+}
