@@ -1,0 +1,6 @@
+movies = ("The Avengers", "Finding Nemo", "Harry Potter", "Jurassic Park", "Inception", "Spider-Man")
+
+pirveli, *danarcheni = movies
+
+print("pirveli: ", pirveli)
+print("Danarcheni: ", danarcheni)

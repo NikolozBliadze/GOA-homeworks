@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Examples</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            border: 2px solid red; 
+            margin: 20px;         
+            padding: 15px 30px;    
+        }
+
+        .bordered-div {
+            border-top: 5px solid red;
+            border-right: 5px solid green;
+            border-bottom: 5px solid blue;
+            border-left: 5px solid yellow;
+            padding: 20px;
+            margin-bottom: 20px; 
+        }
+
+        .pirveli {
+            width: 300px;
+            height: 300px;
+            background-color: lightgray;
+            position: relative;
+            margin: 50px auto;
+        }
+        
+
+        .meore {
+            width: 150px;
+            height: 150px;
+            background-color: coral;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <button>Click Me</button>
+    <div class="bordered-div">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet labore dolorum possimus? Doloribus possimus explicabo eum? Sed provident asperiores vitae aliquam, et officia, deserunt deleniti sapiente, beatae maxime temporibus porro.</p>
+    </div>
+    <div class="pirveli">
+        <div class="meore"></div>
+    </div>
+
+</body>
+</html>
+<!-- Margin არის ელემენტის გარე სივრცე, border_ის გარეთ, ხოლო Padding არის შიდა სივრცე, რომელიც ელემენტის საზღვრებს შორისაა.
+
+Box Modeling აღწერს ელემენტის სტრუქტურას: შინაარსი (Content), შიდა სივრცე (Padding), საზღვრები (Border) და გარე სივრცე (Margin). -->
